@@ -57,25 +57,6 @@ Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla at leo non p
 
 Sed placerat et lectus eu finibus. Integer id quam facilisis, bibendum velit at, semper sem. Suspendisse ut diam ut augue tincidunt feugiat. Etiam in rhoncus diam. Vestibulum in luctus quam. In interdum turpis vel est suscipit malesuada. Aliquam erat volutpat. Ut quis ante et eros fermentum hendrerit.`
 
-// let words = 0;
-//
-
 let sentenceArray = sentence.replaceAll('\n\n', ' ');
 
 console.log(sentenceArray.split(' ').length);
-
-
-
-
-
-
-// for (i=0; i < sentence.length; i++) {
-//   if (sentence[i] === ' ' || sentence[i] === '.') {
-//     continue;
-//   }
-//   else if (sentence[i+1] === ' ' || sentence[i+1] === '.') {
-//     words++;
-//   }
-// }
-
-// console.log(words);
